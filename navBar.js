@@ -12,19 +12,4 @@ function myFunction() {
     }else{
         navbar.classList.remove("sticky");
     }
-}
- var path = "./img/"
-
- document.getElementById("lilPic").addEventListener("click", function(){
-     bigP = document.getElementById("bigPic");
-
-     newImg = path + bigP;
-
-     newImg.style.display = "block";
-
-     return newImg;
- })
-
- if(newImg == true){
-     newImg.style.display = "block";
- }
+};
