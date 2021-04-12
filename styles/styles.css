@@ -118,3 +118,7 @@ th, td {
 footer {
     padding: 20px;
 }
+
+a:visited {
+    color: tomato;
+}
